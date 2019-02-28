@@ -61,9 +61,9 @@ body {
 	text-align:center;
 }
 
-.text-white {
+.text-black {
 	font-weight:bold;
-	text-shadow: black 0px 0px 40px;
+	text-shadow: white 0px 0px 40px;
 }
 
 
