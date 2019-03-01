@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Vidaloka');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+
+body {
+	overflow-x:hidden;
+	font-family: 'Lato', sans-serif;
+	background-image:url(img/background6.jpg);
+	max-width:100%
+	height:auto;
+	background-size:cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed ;
+	color: black; 
+	
+	
+
+}
+
+.display-4{
+	font-weight:bold;
+	color:black;
+	font-family: 'Vidaloka', serif;
+
+}
+
+/*----Navigation----*/
+
+.navbar {
+	font-family: 'Vidaloka', serif;
+	font-weight:700;
+	letter-spacing: .1rem;
+	text-transform:uppercase;
+	max-width:100%;
+	padding-top:50px;
+}
+		
+
+
+.navbar-brand {
+	text-decoration:underline;
+	font-size:20px;
+	color:#000!important;
+}
+
+.nav-link {
+	color:#000!important;
+}
+
+
+
+
+/*Navbar button customization*/
+
+.btn{
+	text:center;
+	font-weight:bold;
+	background-color: transparent;
+	border: 0px solid transparent;
+	color:#000;
+	margin-top:-11.5px;
+}
+
+.book{
+	margin-top:30px;
+	font-style:italic;
+}
+
+.jumbotron {
+	background-color:transparent;
+	padding:55vh;
+	text-align:center;
+}
+
+.text-black {
+	font-weight:bold;
+	text-shadow: white 0px 0px 40px;
+}
+
+
+
+
+/*Image Section */
+
+.col-sm-4 {
+	padding-top:100px;
+	pading-bottom:100px;
+	transform:rotate(90deg);
+
+}
+
+.img-fluid {
+	padding-top:500px;
+}
+
+/*---About Section*/
+
+.mb-4 {
+	font-weight:bold;
+	font-family: 'PT Sans Narrow', sans-serif;
+	font-size:1.2rem;
+	background-color:transparent;
+}
+
+.main-title {
+	font-family: 'Satisfy', cursive;
+	font-size: 30px;
+	line-height:33px;
+	text-decoration:underline;
+
+}
+
+/* Hours of Operation */
+.list-group-item {
+	background-color:transparent;
+}
+
+.list-group-item:hover {
+	background-color:black;
+}
+
+
+/* Google Maps Addition*/
+
+.contact{
+	font-weight:bold;
+	font-family: 'Satisfy', cursive;
+}
+
+.hours {
+	font-weight:bold;
+	font-family: 'Satisfy', cursive;
+	font-size:1.7rem;
+
+}
+
+.address {
+	font-weight:bold;
+	font-family: 'Satisfy', cursive;
+	font-size:1.7rem;
+}
+
+
+
+/* Gallery */
+
+
+
+.container.gallery-container {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);
+   
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top:5vh;
+    font-family: 'Satisfy', cursive;
+    font-weight: bold;
+}
+
+.gallery-container p.page-description {
+    text-align: center;
+    color: #888;
+    font-size: 18px;
+}
+
+
+.rtm-gallery .lightbox img {
+    width: 100%;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+    transform: rotate(360deg);
+
+}
+
+.page-description{
+	font-family: 'Dancing Script', cursive;
+	font-size:100px;
+}
+
+
+.rtm-gallery .lightbox img:hover {
+   
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+}
+
+
+
+    .container.gallery-container {
+        border-radius: 0;
+    }
+}
+
+/* --- Footer ----*/
+
+
+
+.top {
+	font-family: 'Vidaloka', serif;
+	padding-top:80px;
+	
+	
+
+}
+
+
