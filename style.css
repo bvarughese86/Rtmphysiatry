@@ -19,13 +19,13 @@ body {
 
 @media only screen and (max-width: 767px) {
   body {
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
     background-image: url(img/background-photo-mobile-devices.jpg);
     max-width:100%;
     height:auto;
     background-size:cover;
     background-repeat:no-repeat;
+    background-attachment:fixed;
+    background-position:center;
   }
 }
 
