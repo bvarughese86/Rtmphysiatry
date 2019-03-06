@@ -21,10 +21,8 @@ body {
 
 /* Media Breakpoint - Small Cell Phones */
 
-@media only screen and (max-width: 767px) {
-  body {
-    /* The file size of this background image is 93% smaller
-       to improve page load speed on mobile internet connections */
+@media only screen and (max-width: 768px) {
+  body {
     background-image: url(img/background-photo-mobile-devices.jpg);
     max-width:100%;
     height:100vh;
